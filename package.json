@@ -1,0 +1,36 @@
+{
+  "name": "solid-nodegui-poc",
+  "description": "a solidjs nodegui proof-of-concept",
+  "version": "0.0.1",
+  "type": "module",
+  "author": "obedm503 <contact@obedm.com>",
+  "repository": {
+    "url": "https://github.com/obedm503/solid-nodegui.git",
+    "type": "git"
+  },
+  "workspaces": [
+    "packages/solid-nodegui",
+    "packages/calculator"
+  ],
+  "dependencies": {
+    "@nodegui/nodegui": "^0.61.0",
+    "lodash-es": "^4.17.21",
+    "solid-js": "^1.8.16"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "@babel/preset-typescript": "^7.24.1",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@types/lodash-es": "^4.17.12",
+    "@types/node": "^20.12.5",
+    "babel-plugin-jsx-dom-expressions": "^0.37.19",
+    "babel-preset-solid": "^1.8.16",
+    "jam-pack-nodegui": "^0.18.0",
+    "rollup": "^4.14.1",
+    "typescript": "^5.1.3"
+  }
+}

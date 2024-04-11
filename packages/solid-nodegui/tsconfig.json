@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "lib": ["ESNext"],
+    "target": "ESNext",
+    "module": "ESNext",
+    "allowSyntheticDefaultImports": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedParameters": false,
+    "noImplicitReturns": false,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "noUnusedLocals": false,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "declarationDir": "dist/types",
+    "declaration": true,
+    "strict": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
